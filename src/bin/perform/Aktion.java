@@ -210,7 +210,7 @@ public class Aktion {
       public void actionPerformed( ActionEvent e ) { 
         JOptionPane.showMessageDialog( null, 
           "<HTML><H2>AR65view</H2>" +
-          "<H4>Version 0.2.11.01</H4>" +
+          "<H4>Version 0.2.11.02 (JNLP)</H4>" +
           "This progam can be used to analyse, view and modify<BR>" +
           "investigated data collected by the Omicron AR65 electron<BR>" +
           "spectrometer as well as the WESPHOA ARPES chamber,<BR>" +
@@ -248,7 +248,8 @@ public class Aktion {
       "'Shirley Background' from inelastic scatterd electrons, normalize your data to<BR>" +
       "a maximum of 10000 and then export all data to the clipboard. By Copy&Paste<BR>" +
       "you can now import this data to Origin, OtiPlot, LabPlot or SciDAVis or any<BR>" +
-      "other Information Graphics Software (see Wikipedia) you like.</HTML>", // Fragetext
+      "other Information Graphics Software (see Wikipedia) you like.<BR><BR>" +
+      "2011/02/01 </HTML>", // Fragetext
       "How to use AR65view",  // Titel
       JOptionPane.OK_OPTION, helpIcon );
       } 
