@@ -1,0 +1,12 @@
+﻿Datei
+Neu
+Öffnen
+Speichern
+Speichern unter ...
+Beenden
+Bearbeiten
+Ausschneiden
+Kopieren
+Einfügen
+Hilfe
+Über AR65view ...
