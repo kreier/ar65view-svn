@@ -269,14 +269,14 @@ public class SpectraData {
     }
     double faktor = 1; // Reduzierung von Shirley vor dem Abzug der Werte
     // letztes Drittel auf maximale Differenz untersuchen
-    for(int i=0; i<(int)((channels[specAktuell])*0.3); i++)
+    for(int i=0; i<(int)((channels[specAktuell])*0.4); i++)
     {
         if(shirley[i]*faktor > messwert[specAktuell][i])
         {
             faktor = (double)messwert[specAktuell][i]/(double)shirley[i];
         }
     }
-    for(int i=1; i<(channels[specAktuell]); i++)
+    for(int i=0; i<(channels[specAktuell]); i++)
     {
         messwert[specAktuell][i] = messwert[specAktuell][i] - (int)(shirley[i]*faktor);
     }
