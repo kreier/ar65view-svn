@@ -4,7 +4,7 @@ import java.io.*;
 
 /** all strings in this program here defined to load another language
  *
- * @author Маттиас
+ * @author Matthias Kreier
  */
 public class Name {
     public static String FILE, NEU, OPEN, SAVE, SAVE_AS, EXIT;
