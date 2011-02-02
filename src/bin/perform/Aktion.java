@@ -249,7 +249,7 @@ public class Aktion {
       "a maximum of 10000 and then export all data to the clipboard. By Copy&Paste<BR>" +
       "you can now import this data to Origin, OtiPlot, LabPlot or SciDAVis or any<BR>" +
       "other Information Graphics Software (see Wikipedia) you like.<BR><BR>" +
-      "2011/02/01 </HTML>", // Fragetext
+      "2011/02/02 </HTML>", // Fragetext
       "How to use AR65view",  // Titel
       JOptionPane.OK_OPTION, helpIcon );
       } 

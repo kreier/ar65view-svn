@@ -50,11 +50,11 @@ public class InfoBox extends JLabel {
         s += "<tr><td>Phi:</td><td> </td>" +
                 "<td align='right'>" +
                 bin.AR65view.spec.phi[bin.AR65view.spec.specAktuell] +
-                "°</td></tr>";
+                "Â°</td></tr>";
         s += "<tr><td>Theta:</td><td> </td>" +
                 "<td align='right'>" +
                 bin.AR65view.spec.theta[bin.AR65view.spec.specAktuell] +
-                "°</td></tr>";        
+                "Â°</td></tr>";
         s += "<tr><td>Channels:</td><td> </td>" +
                 "<td align='right'>"+S.channels[S.specAktuell]+"</td></tr>";
         s += "</table><center>"+bin.SpectraData.datei+"</center>";
