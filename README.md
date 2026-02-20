@@ -1,5 +1,6 @@
 # AR65view
-[![GitHub release](https://img.shields.io/github/release/kreier/ar65view.svg)](https://GitHub.com/kreier/ar65view/releases/)
+
+![GitHub Release](https://img.shields.io/github/v/release/kreier/ar65view-svn)
 ![GitHub License](https://img.shields.io/github/license/kreier/ar65view-svn?style=flat)
 [![pages-build-deployment](https://github.com/kreier/ar65view-svn/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/kreier/ar65view-svn/actions/workflows/pages/pages-build-deployment)
 
